@@ -1,7 +1,13 @@
+'''
+This script imports and utilizes various text extraction functions from extractor.py.
+It processes a predefined text sample and extracts specific data types including emails, URLs,
+phone numbers, credit card numbers, times, and HTML tags.
+'''
 import extractor  # Importing the extractor functions from extractor.py
 
 # The text data 
 text_data = """
+Emails:
 - valid@example.com # Valid email
 - invalid-email.com # Invalid email (missing '@')
 - user@subdomain.example.co.uk # Valid email with subdomain and multiple TLDs
