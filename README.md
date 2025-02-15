@@ -29,7 +29,7 @@ Then navigate to the folder using:
 
 To execute the script and extract data from sample text, run:
 
-`python test_extractor.py`
+`python3 test_extractor.py`
 
 ## Script Descriptions
 ### `extractor.py`
