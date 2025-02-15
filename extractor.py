@@ -1,3 +1,9 @@
+'''
+This script contains multiple functions to extract data (emails, URLs, phone numbers, 
+credit card numbers, time, and HTML tags) from a given text input.
+Each function uses regular expressions (regex) to identify and return specific patterns.
+'''
+
 import re
 
 # Function to extract email addresses
